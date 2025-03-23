@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+ body 
+      {
+          background-color: #ddd !important; /*-- màu nền--*/
+          color: #666;                     /* màu chữ*/
+          font-family: 'Myriad Pro', Arial; 
+          font-size: 16px
+      }
+    h1.tentruong
+      {
+          color: darkblue; 
+          font-family:Cambria,  Times, 'Times New Roman', 'serif'; 
+          font-size: 34px;  float: left; margin-left: 20px
+              
+      }
+      a{ /*--- style cho text có link <a>*/
+          color: #000 !important;
+          text-decoration: none /*--- bỏ gạch chân--*/
+      } 
+      a:hover /*  trang thái trỏ chuột vào link*/
+      {
+          color:#FCAF0A
+      }
+.img-100{ max-width: 100%; height: auto}
+*{ box-sizing: border-box}
+ .container {
+      width: 80%; 
+     margin: auto;  /* đẩy div 70% vào giữa trang web*/
+      }
+.clearfix{ clear: both; height: 0}
+.w-25 { width: 25%; float: left; padding: 15px}
+.w-33 { width: 33.33%; float: left; padding: 15px}
+.w-66 { width: 66.66%; float: left; padding: 15px}
+.w-50 { width: 50%; float: left; padding: 15px}
+.w-75 { width: 75%; float: left; padding: 15px}
+.w-100 { width: 100%; float: left; padding: 15px}
+.menu ul{ 
+    margin: 0; 
+    padding: 0; 
+    list-style: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
